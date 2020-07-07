@@ -1,2 +1,2 @@
 # CityApp
-CityApp for the Smart City
+CityApp for the Smart City, its a react-native project. 
