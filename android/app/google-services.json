@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1039319356434",
+    "firebase_url": "https://gondiacityapp-810ff.firebaseio.com",
+    "project_id": "gondiacityapp-810ff",
+    "storage_bucket": "gondiacityapp-810ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039319356434:android:c655aba8fc74688b7f74cb",
+        "android_client_info": {
+          "package_name": "com.allinone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039319356434-104ur1a7ug6otkvaqja29256vtv1l2u6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO9wltUey9f4iC4w5f_84WB56NNZrqQ50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039319356434-104ur1a7ug6otkvaqja29256vtv1l2u6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
