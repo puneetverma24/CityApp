@@ -14,11 +14,9 @@ class FCMSerivce {
         await messaging().hasPermission()
         .then(enabled => {
             if (enabled) {
-                alert('enabled');
                 //User has permission
                 this.getToken(onRegister);
             } else {
-                alert('request enabled');
                 this.requestPermission(onRegister);
             }
         }).catch( error => {

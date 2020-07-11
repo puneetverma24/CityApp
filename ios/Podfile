@@ -85,6 +85,11 @@ target 'AllInOne' do
 
   pod 'RNFBMessaging', :path => '../node_modules/@react-native-firebase/messaging'
 
+  pod 'RNFBAuth', :path => '../node_modules/@react-native-firebase/auth'
+
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
   target 'AllInOneTests' do
     inherit! :complete
     # Pods for testing

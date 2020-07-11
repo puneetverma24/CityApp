@@ -13,6 +13,7 @@ import OrderPage from '../OrderPage';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { fcmService } from './../../Services/FCMService';
+import { version } from "../../../package.json";
 const Drawer = createDrawerNavigator();
 
 export default class HomeScreenRouter extends Component {
@@ -23,6 +24,7 @@ export default class HomeScreenRouter extends Component {
   }
 
   componentDidMount() {
+    alert(version);
     this.fcmNotification = fcmService;
     this.fcmNotification.register(this.onRegister, this.onNotification, this.onOpenNotification)
   }

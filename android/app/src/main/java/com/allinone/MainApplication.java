@@ -4,9 +4,10 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+import io.invertase.firebase.auth.ReactNativeFirebaseAuthPackage;
 import io.invertase.firebase.app.ReactNativeFirebaseAppPackage;
 import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
-//import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.reactnativecommunity.picker.RNCPickerPackage;
 import com.reactnativecommunity.viewpager.RNCViewPagerPackage;
 import com.facebook.react.ReactInstanceManager;
@@ -34,6 +35,9 @@ public class MainApplication extends Application implements ReactApplication {
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
           //packages.add(new MainReactPackage(),
+            //new AsyncStoragePackage(),
+            //new RNDeviceInfo(),
+           // new ReactNativeFirebaseAuthPackage(),
           //packages.add(new ReactNativeFirebaseAppPackage());
            //packages.add(new ReactNativeFirebaseMessagingPackage());
             // new RNCPickerPackage()

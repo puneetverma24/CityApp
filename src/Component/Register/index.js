@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, KeyboardAvoidingView, TextInput, StyleSheet, Text, Platform, TouchableWithoutFeedback, Button, Keyboard } from 'react-native';
 
-export default class SignUp extends Component {
+export default class Register extends Component {
   constructor() {
     super()
   }
